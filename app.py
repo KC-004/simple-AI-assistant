@@ -50,7 +50,7 @@ if prompt:
         }
     )
 
-    with st.chat_message("user")
+    with st.chat_message("user"):
         st.write(prompt)
 
     context = ""
